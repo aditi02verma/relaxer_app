@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relaxer App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Bootstrap container for proper spacing -->
+    <div class="welcome-container container text-center">
+      <!-- Makes the slogan-div responsive without changing class names -->
+      <div class="slogan-div rounded-4 p-3 mx-auto col-md-8 col-lg-6">
+        <h1 class="p-2 text-wrap fs-3">Welcome to Your Relaxation Journey</h1>
+        <p class="text-wrap fs-6">
+          Take a deep breath and allow yourself to unwind. In this space, there
+          are no deadlines, no worries, and no distractions—only peace,
+          tranquility, and the present moment.
+        </p>
+        <p class="text-wrap fs-6">
+          Whether you’re seeking a quick escape or a longer moment of stillness,
+          this is your sanctuary. Relax your body, clear your mind, and embrace
+          a sense of calm.
+        </p>
+        <h1 class="p-2 text-wrap fs-4">
+          Breathe deeply... and begin your journey to inner peace.
+        </h1>
+      </div>
+
+      <!-- Makes the info section responsive and center-aligned -->
+      <div
+        class="info rounded-4 mx-auto col-md-6 col-lg-4 p-3 d-flex flex-column align-items-center"
+      >
+        <!-- <input
+          type="text"
+          placeholder="Enter Your First Name"
+          class="first-name form-control rounded-3 m-2"
+        /> -->
+
+        <button
+          class="btn btn-outline-dark rounded-pill w-50 mt-2"
+          onclick=" window.location.href = 'relax.html';"
+        >
+          Get Started
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
